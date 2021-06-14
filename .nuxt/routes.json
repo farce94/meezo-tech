@@ -1,0 +1,68 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "E:\\\\meezotech\\\\meezotech\\\\pages\\\\about.vue",
+    "chunkName": "pages/about"
+  },
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "E:\\\\meezotech\\\\meezotech\\\\pages\\\\blog.vue",
+    "chunkName": "pages/blog"
+  },
+  {
+    "name": "blog-details",
+    "path": "/blog-details",
+    "component": "E:\\\\meezotech\\\\meezotech\\\\pages\\\\blog-details.vue",
+    "chunkName": "pages/blog-details"
+  },
+  {
+    "name": "career-details",
+    "path": "/career-details",
+    "component": "E:\\\\meezotech\\\\meezotech\\\\pages\\\\career-details.vue",
+    "chunkName": "pages/career-details"
+  },
+  {
+    "name": "careers",
+    "path": "/careers",
+    "component": "E:\\\\meezotech\\\\meezotech\\\\pages\\\\careers.vue",
+    "chunkName": "pages/careers"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "E:\\\\meezotech\\\\meezotech\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact"
+  },
+  {
+    "name": "project",
+    "path": "/project",
+    "component": "E:\\\\meezotech\\\\meezotech\\\\pages\\\\project.vue",
+    "chunkName": "pages/project"
+  },
+  {
+    "name": "project-details",
+    "path": "/project-details",
+    "component": "E:\\\\meezotech\\\\meezotech\\\\pages\\\\project-details.vue",
+    "chunkName": "pages/project-details"
+  },
+  {
+    "name": "service",
+    "path": "/service",
+    "component": "E:\\\\meezotech\\\\meezotech\\\\pages\\\\service.vue",
+    "chunkName": "pages/service"
+  },
+  {
+    "name": "service-details",
+    "path": "/service-details",
+    "component": "E:\\\\meezotech\\\\meezotech\\\\pages\\\\service-details.vue",
+    "chunkName": "pages/service-details"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "E:\\\\meezotech\\\\meezotech\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

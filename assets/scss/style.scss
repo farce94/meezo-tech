@@ -1,0 +1,283 @@
+
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap');
+
+
+// Icon font
+@import "../css/animate.css";
+@import "../css/icofont.css";
+
+// Base
+@import "common/variables";
+@import "common/mixins";
+
+// Typography
+@import "common/typography";
+
+// Common Styles
+@import "components/common";
+@import "components/navbar";
+
+// Header
+@import "header/header";
+@import "header/offCanvas-menu";
+
+// Banner Styles
+@import "components/banner";
+
+// Components
+@import "components/about";
+@import "components/service";
+@import "components/team";
+@import "components/portfolio";
+@import "components/testimonial";
+@import "components/brand-logo";
+@import "components/feature";
+@import "components/fun-fact";
+@import "components/divider";
+@import "components/icon-box";
+@import "components/form";
+
+
+// Blog
+@import "components/blog";
+
+// Contact
+@import "components/contact";
+
+// Footer
+@import "footer/footer";
+
+$logo-color-one:#ec1e24;
+$logo-color-two:#48484a;
+$color-white:#fff;
+$no-color:transparent;
+
+.w235{
+	width: 235px !important;
+}
+
+::selection,
+.home-slider-area.slider-default .home-slider-sidebar,
+.header-action-area .btn-theme.btn-style,
+.scroll-top,
+.icon-box-style1 .icon-box-item .content .btn-link:after,
+.icon-box-style1 .icon-box-item:hover,
+.faq-content,
+.team-member:hover, 
+.team-slider-content .team-slider-container .swiper-wrapper .swiper-slide.swiper-slide-active.team-member,
+.progress-item .progress-line .progress-bar-line,
+.footer-area .footer-bottom,
+.btn-theme,
+.portfolio-page-wrapper .portfolio-area .portfolio-item .portfolio-info .btn-icon:hover,
+.portfolio-filter-menu button:after,
+.portfolio-tab-content .portfolio-info-list,
+.video-divider .btn-play .icon,
+.category-social-content .category-items a:hover,
+.page-navigation .nav-item .thumb a,
+.section-title .title span:after,
+.video-divider .btn-play .icon:after,
+.page-title-area .page-sidebar,
+.header-area.header-default.transparent .header-align .header-navigation-area .main-menu > li:hover:after,
+.header-area.header-default.transparent .header-align .header-navigation-area .main-menu > li.active:after,
+.contact-colunm .contact-form,
+.footer-area .widget-menu-wrap .nav-menu li:after,
+.footer-area .widget-menu-wrap .nav-menu li a:after,
+.funfact-items-style1 .funfact-item:hover,
+.list-icon-style ul li:hover,
+.about-area .layer-style .experience-time .content,
+.feature-list .feature-list-item:hover,
+.team-member .content .member-info .progress-item .progress-line .progress-bar-line:after,
+.jobs button
+{
+    background-color: $logo-color-one !important;
+}
+
+.btn-link,
+.footer-area .footer-bottom .widget-social-icons a:hover,
+.btn-theme.btn-border.btn-theme-color2,
+.btn-theme.btn-theme-color2:focus,
+.portfolio-filter-menu button:hover,
+.portfolio-filter-menu button.mixitup-control-active,
+.portfolio-item .portfolio-info .btn-icon,
+.portfolio-item .portfolio-info .category,
+.page-navigation .nav-item .content .category,
+.video-divider .btn-play,
+.page-title-area .page-sidebar .social-icon a:hover,
+.header-area.header-default .header-align .header-navigation-area .main-menu > li.has-submenu .submenu-nav > li a:hover,
+.contact-form .form-group .btn-theme,
+.footer-area .widget-menu-wrap .nav-menu li a:hover,
+.footer-area .widget-menu-wrap .nav-menu li:hover:before,
+.faq-content .accordion-content .accordion .card .card-header .accordion-button .icon,
+.section-title .subtitle-content h5,
+.post-item .content .title a:hover,
+.post-item .content .category-inner .category,
+.testimonial-single .client-info .designation,
+.testimonial-slider-container .swiper-button-next:hover, 
+.testimonial-slider-container .swiper-button-prev:hover,
+.text-theme-color,
+.funfact-items-style1 .funfact-item .title,
+.btn-theme.btn-border,
+.list-icon-style ul li .icon,
+.list-icon-style ul li:hover .icon,
+.header-action-area .btn-theme.btn-style .icon-style,
+.header-area.header-default.sticky-header.is-sticky .header-align .header-navigation-area .main-menu > li:hover > a,
+.team-member .content .member-info .progress-item .progress-line .progress-bar-line .percent,
+a.apply:hover
+{
+    color: $logo-color-one;
+}
+
+.header-action-area .btn-theme.btn-style:hover,
+.btn-theme:hover,
+ .btn-theme:focus,
+ .faq-content .accordion-content .accordion .card .card-header .accordion-button.collapsed .icon-box,
+ .section-title .title span.bottom-color-style2:after,
+ .team-slider-content .team-slider-container .swiper-wrapper .swiper-slide.swiper-slide-active.team-member .content .member-info .progress-item .progress-line,
+ .team-member:hover .content .member-info .progress-item .progress-line,
+ .team-member.active .content .member-info .progress-item .progress-line,
+ .jobs button:hover
+ {
+    background-color: $logo-color-two !important;
+}
+.team-member .content .member-info .designation{
+    color: $logo-color-two;
+}
+.home-slider-item{
+    background-size: cover; 
+    background-position: center;
+}
+.btn.btn-theme {
+    border: 0 !important;
+    border-color: $no-color !important;
+}
+.btn-theme.btn-border.btn-theme-color2,
+.btn-theme.btn-border.btn-theme-color2:hover,
+.btn-theme.btn-theme-color2:focus,
+.faq-content .accordion-content .accordion .card .collapse .card-text{
+    border-color: $logo-color-one;
+}
+.portfolio-item .portfolio-info .category,
+.page-navigation .nav-item .content .category,
+.contact-colunm .contact-form .section-title .title span:after,
+.post-item .content .category-inner .category,
+.testimonial-single .client-info .designation,
+.list-icon-style ul li,
+.list-icon-style ul li .icon,
+.feature-list .feature-list-item .icon
+{
+    background-color: rgb(236 30 36 / 23%);
+}
+.page-title-area .page-title-content {
+    padding: 150px 0 60px;
+}
+.contact-page-wrapper .contact-area{
+    padding: 0;
+}
+.btn-theme.btn-white.btn-border:hover{
+    color: $color-white;
+}
+.faq-content .accordion-content .accordion .card{
+    border-color: $color-white;
+}
+
+img.logo-main {
+    width: 250px !important;
+    max-width: fit-content;
+}
+.header-area.header-default.sticky-header.is-sticky .header-align .header-navigation-area .main-menu > li:after {
+    top: 50px;
+}
+
+.team-area.team-default-area {
+    padding: 0px 0 120px;
+}
+.service-area.service-default-area {
+    padding: 140px 0;
+}
+
+.page-title-area .page-sidebar:before {
+    top: 70px;
+}
+
+.page-title-area .page-sidebar .social-icon {
+    top: 65px;
+}
+
+a.apply {
+    color: #0056b3;
+}
+
+.jobs button {
+    font-size: 25px;
+    font-weight: 600;
+    border-color: #ec1e24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 30px;
+}
+.jobs button a{
+
+    color: white;
+}
+.jobs button a:hover{
+    text-decoration: underline;
+}
+.jobs header.card-header {
+    background-color: transparent;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.jobs  .card {
+    border: 0;
+}
+
+.jobs .card-body {
+    background-color: #f1f2f582;
+}
+::-webkit-file-upload-button {
+    border-radius: 32.5px;
+    color: #fff;
+    background-color: $logo-color-one;
+    border:0;
+  }
+  input#resume {
+    background-color: #48484a !important;
+padding: 8px 20px;
+border-radius: 7px;
+color: #ffffff;
+}
+
+.resume .form-control {
+    height: 47px;
+    border-radius: 7px;
+}
+
+.resume .form-control:focus {
+    box-shadow: none;
+    border-color: $logo-color-two !important;
+}
+
+.resume button{
+    border-radius: 32.5px;
+}
+.heading {
+    color: #ec1e24;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.jobs ul li {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.jobs ul li i {
+    color: red;
+    padding-right: 15px;
+}
+*{
+    box-shadow: none !important;
+}

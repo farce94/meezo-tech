@@ -12,8 +12,8 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_10d79162 from 'nuxt_plugin_plugin_10d79162' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_bootstrapvue_140311b4 from 'nuxt_plugin_bootstrapvue_140311b4' // Source: .\\bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_plugin_607bcfe2 from 'nuxt_plugin_plugin_607bcfe2' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_7a6df6e1 from 'nuxt_plugin_bootstrapvue_7a6df6e1' // Source: .\\bootstrap-vue.js (mode: 'all')
 import nuxt_plugin_vueawesomeswiper_5ce03f58 from 'nuxt_plugin_vueawesomeswiper_5ce03f58' // Source: ..\\plugins\\vue-awesome-swiper.js (mode: 'all')
 import nuxt_plugin_Mixitupclient_93a1f82c from 'nuxt_plugin_Mixitupclient_93a1f82c' // Source: ..\\plugins\\Mixitup.client.js (mode: 'client')
 import nuxt_plugin_vuebacktotop_ad80613c from 'nuxt_plugin_vuebacktotop_ad80613c' // Source: ..\\plugins\\vue-backtotop.js (mode: 'client')
@@ -180,12 +180,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_10d79162 === 'function') {
-    await nuxt_plugin_plugin_10d79162(app.context, inject)
+  if (typeof nuxt_plugin_plugin_607bcfe2 === 'function') {
+    await nuxt_plugin_plugin_607bcfe2(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_140311b4 === 'function') {
-    await nuxt_plugin_bootstrapvue_140311b4(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_7a6df6e1 === 'function') {
+    await nuxt_plugin_bootstrapvue_7a6df6e1(app.context, inject)
   }
 
   if (typeof nuxt_plugin_vueawesomeswiper_5ce03f58 === 'function') {

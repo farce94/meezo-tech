@@ -4,17 +4,17 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _7d27366c = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _20bc44da = () => interopDefault(import('..\\pages\\blog.vue' /* webpackChunkName: "pages/blog" */))
-const _a24674f0 = () => interopDefault(import('..\\pages\\blog-details.vue' /* webpackChunkName: "pages/blog-details" */))
-const _317a4124 = () => interopDefault(import('..\\pages\\career-details.vue' /* webpackChunkName: "pages/career-details" */))
-const _c2a0dc58 = () => interopDefault(import('..\\pages\\careers.vue' /* webpackChunkName: "pages/careers" */))
-const _5a9fc082 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
-const _cf89bb90 = () => interopDefault(import('..\\pages\\project.vue' /* webpackChunkName: "pages/project" */))
-const _6c0d952d = () => interopDefault(import('..\\pages\\project-details.vue' /* webpackChunkName: "pages/project-details" */))
-const _5d4f6fd4 = () => interopDefault(import('..\\pages\\service.vue' /* webpackChunkName: "pages/service" */))
-const _678ef26e = () => interopDefault(import('..\\pages\\service-details.vue' /* webpackChunkName: "pages/service-details" */))
-const _c641dd9e = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _0d68d58f = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
+const _ee2363e0 = () => interopDefault(import('..\\pages\\blog.vue' /* webpackChunkName: "pages/blog" */))
+const _dbb92df6 = () => interopDefault(import('..\\pages\\blog-details.vue' /* webpackChunkName: "pages/blog-details" */))
+const _5da5f961 = () => interopDefault(import('..\\pages\\career-details.vue' /* webpackChunkName: "pages/career-details" */))
+const _2505f437 = () => interopDefault(import('..\\pages\\careers.vue' /* webpackChunkName: "pages/careers" */))
+const _59068222 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
+const _1e91849b = () => interopDefault(import('..\\pages\\project.vue' /* webpackChunkName: "pages/project" */))
+const _754e36e0 = () => interopDefault(import('..\\pages\\project-details.vue' /* webpackChunkName: "pages/project-details" */))
+const _38b45b92 = () => interopDefault(import('..\\pages\\service.vue' /* webpackChunkName: "pages/service" */))
+const _2583d62c = () => interopDefault(import('..\\pages\\service-details.vue' /* webpackChunkName: "pages/service-details" */))
+const _2d20b054 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -29,47 +29,47 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _7d27366c,
+    component: _0d68d58f,
     name: "about"
   }, {
     path: "/blog",
-    component: _20bc44da,
+    component: _ee2363e0,
     name: "blog"
   }, {
     path: "/blog-details",
-    component: _a24674f0,
+    component: _dbb92df6,
     name: "blog-details"
   }, {
     path: "/career-details",
-    component: _317a4124,
+    component: _5da5f961,
     name: "career-details"
   }, {
     path: "/careers",
-    component: _c2a0dc58,
+    component: _2505f437,
     name: "careers"
   }, {
     path: "/contact",
-    component: _5a9fc082,
+    component: _59068222,
     name: "contact"
   }, {
     path: "/project",
-    component: _cf89bb90,
+    component: _1e91849b,
     name: "project"
   }, {
     path: "/project-details",
-    component: _6c0d952d,
+    component: _754e36e0,
     name: "project-details"
   }, {
     path: "/service",
-    component: _5d4f6fd4,
+    component: _38b45b92,
     name: "service"
   }, {
     path: "/service-details",
-    component: _678ef26e,
+    component: _2583d62c,
     name: "service-details"
   }, {
     path: "/",
-    component: _c641dd9e,
+    component: _2d20b054,
     name: "index"
   }],
 

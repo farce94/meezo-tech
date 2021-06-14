@@ -66,5 +66,8 @@ export default {
         extractCSS: true,
         extend (config, ctx) {
         },
+        babel: {
+            compact: true,
+           },
     },
 }

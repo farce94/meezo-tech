@@ -3,77 +3,66 @@
     "name": "about",
     "path": "/about",
     "component": "E:\\\\meezotech\\\\meezo-tech\\\\pages\\\\about.vue",
-    "chunkName": "pages/about",
-    "_name": "_0d68d58f"
+    "chunkName": "pages/about"
   },
   {
     "name": "blog",
     "path": "/blog",
     "component": "E:\\\\meezotech\\\\meezo-tech\\\\pages\\\\blog.vue",
-    "chunkName": "pages/blog",
-    "_name": "_ee2363e0"
+    "chunkName": "pages/blog"
   },
   {
     "name": "blog-details",
     "path": "/blog-details",
     "component": "E:\\\\meezotech\\\\meezo-tech\\\\pages\\\\blog-details.vue",
-    "chunkName": "pages/blog-details",
-    "_name": "_dbb92df6"
+    "chunkName": "pages/blog-details"
   },
   {
     "name": "career-details",
     "path": "/career-details",
     "component": "E:\\\\meezotech\\\\meezo-tech\\\\pages\\\\career-details.vue",
-    "chunkName": "pages/career-details",
-    "_name": "_5da5f961"
+    "chunkName": "pages/career-details"
   },
   {
     "name": "careers",
     "path": "/careers",
     "component": "E:\\\\meezotech\\\\meezo-tech\\\\pages\\\\careers.vue",
-    "chunkName": "pages/careers",
-    "_name": "_2505f437"
+    "chunkName": "pages/careers"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "E:\\\\meezotech\\\\meezo-tech\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_59068222"
+    "chunkName": "pages/contact"
   },
   {
     "name": "project",
     "path": "/project",
     "component": "E:\\\\meezotech\\\\meezo-tech\\\\pages\\\\project.vue",
-    "chunkName": "pages/project",
-    "_name": "_1e91849b"
+    "chunkName": "pages/project"
   },
   {
     "name": "project-details",
     "path": "/project-details",
     "component": "E:\\\\meezotech\\\\meezo-tech\\\\pages\\\\project-details.vue",
-    "chunkName": "pages/project-details",
-    "_name": "_754e36e0"
+    "chunkName": "pages/project-details"
   },
   {
     "name": "service",
     "path": "/service",
     "component": "E:\\\\meezotech\\\\meezo-tech\\\\pages\\\\service.vue",
-    "chunkName": "pages/service",
-    "_name": "_38b45b92"
+    "chunkName": "pages/service"
   },
   {
     "name": "service-details",
     "path": "/service-details",
     "component": "E:\\\\meezotech\\\\meezo-tech\\\\pages\\\\service-details.vue",
-    "chunkName": "pages/service-details",
-    "_name": "_2583d62c"
+    "chunkName": "pages/service-details"
   },
   {
     "name": "index",
     "path": "/",
     "component": "E:\\\\meezotech\\\\meezo-tech\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_2d20b054"
+    "chunkName": "pages/index"
   }
 ]
